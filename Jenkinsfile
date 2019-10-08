@@ -1,19 +1,19 @@
 pipeline {
 	agent any
 		stages {
-			stage('Build') {
+			stage ('Build') {
 			steps {
-		"This stage is used for building"
+		'This stage is used for building'
 			}
 		}
-			stage('Test') {
+			stage ('Test') {
 			steps {
-		"This stage is used for testing"
+		'This stage is used for testing'
 			}
 		}
-			stage('Execute') {
+			stage ('Execute') {
 			steps {
-		"This stage is used for executing"
+		'This stage is used for executing'
 			}
 		}
 }
